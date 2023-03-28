@@ -1,0 +1,95 @@
+*{
+    font-family: 'Oswald', sans-serif;
+   background-color: rgb(47, 79, 79);
+    margin: 0;
+}
+
+header{
+   display: flex;
+   justify-content: center;
+   align-items: center; 
+   background-color: rgb(21, 24, 24);
+   color: rgb(248, 248, 255);
+}
+
+header > h1 > span{
+    background-color: rgb(21, 24, 24);
+    color: rgb(248, 248, 255);    
+}
+
+.calculator-position{
+    display: flex;
+    justify-content: center;
+}
+
+.externBorder{
+    border: solid 2px;
+    border-radius: 80px;
+    margin-top: 20px;
+    width: 400px;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.paddingBorder{
+    border: solid 2px;
+    border-radius: 90px;
+    width: 370px;
+    height: 520px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+
+.screen{
+    border: solid 2px;
+    border-radius:20px;
+    width: 300px;
+    height: 80px;
+    position: relative;
+    text-align: right;
+         
+}
+
+.screen span {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 2em;
+    margin-top: 50px;
+    margin-right: 15px;
+}
+
+.keyboard{
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: unsafe;
+    justify-content: space-around;
+      
+}
+
+.row-of-buttons{
+    display: flex;
+    justify-content: space-around;
+}
+
+.buttonKeys{
+    border: solid 2px;
+    border-radius: 10px;
+    width: 60px;
+    height: 60px;
+    font-size: 20px;       
+}   
+
+.buttonKeyEqual{
+    border: solid 2px;
+    border-radius: 10px;
+    width: 120px;
+    height: 60px;
+    font-size: 20px;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <title>Calculator</title>
+</head>
+<body>
+    <header>
+       <h1><span class="glow">Calculator</span></h1>
+    </header>
+
+    <div class="calculator-position">
+        <div class="externBorder">
+            <div class="paddingBorder">
+                <div class = screen><span class="screenDiv">0</span></div>
+                <div class="keyboard">
+                    
+                    <div class="row-of-buttons">
+                        <button data-keyFunctions="a" class="buttonKeys">AC</button>
+                        <button data-keyFunctions="c" class="buttonKeys">C</button>
+                        <button data-keyOperator="%" class="buttonKeys">%</button>
+                        <button data-keyOperator="/" class="buttonKeys">/</button>
+                    </div>
+                    <div class="row-of-buttons">
+                        <button data-key="7" class="buttonKeys">7</button>
+                        <button data-key="8" class="buttonKeys">8</button>
+                        <button data-key="9" class="buttonKeys">9</button>
+                        <button data-keyOperator="*" class="buttonKeys">x</button>
+                    </div>
+                    <div class="row-of-buttons">
+                        <button data-key="4" class="buttonKeys">4</button>
+                        <button data-key="5" class="buttonKeys">5</button>
+                        <button data-key="6" class="buttonKeys">6</button>
+                        <button data-keyOperator="-" class="buttonKeys">-</button>
+                    </div>
+                    <div class="row-of-buttons">
+                        <button data-key="1" class="buttonKeys">1</button>
+                        <button data-key="2" class="buttonKeys">2</button>
+                        <button data-key="3" class="buttonKeys">3</button>
+                        <button data-keyOperator="+"class="buttonKeys">+</button>
+                    </div>    
+                    <div class="row-of-buttons">
+                        <button data-key="." class="buttonKeys">.</button>
+                        <button data-key="0" class="buttonKeys">0</button>
+                        <button data-keyEqual="Enter" class="buttonKeyEqual">=</button>
+                    </div>                    
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+<script src="./js/calculator.js"></script>
+</body>
+</html>
